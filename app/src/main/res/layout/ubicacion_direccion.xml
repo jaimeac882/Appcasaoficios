@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:id="@+id/area_xrs1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/area_txt"
+        android:orientation="vertical">
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Utilizar dirección seleccionada en mapa"
+            android:id="@+id/switch2" />
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/areaAveria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+
+        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+            android:id="@+id/cb_averia"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:hint="Seleccionar Distrito"
+            android:textColorHint="#071418"
+            app:met_floatingLabel="normal"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/area_txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_below="@+id/areaAveria"
+        android:orientation="vertical">
+
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+
+
+
+
+            <EditText
+                android:id="@+id/txtdirecc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:lines="3"
+                android:text="Calle los cipreses , 43 lote 19 interior 20"
+                android:hint="Ingrese su Dirección"
+                android:textColorHint="#071418"
+                android:inputType="textMultiLine"
+                 />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/xm9s"
+            android:layout_width="0dp"
+            android:visibility="invisible"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.34"
+            android:backgroundTint="@color/com_facebook_blue"
+            android:text="@string/accion_siguiente"
+            android:textColor="@android:color/white" />
+
+
+        <Button
+            android:id="@+id/btn_sig_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.34"
+            android:backgroundTint="@color/com_facebook_blue"
+            android:text="Siguiente"
+            android:textColor="@android:color/white" />
+
+
+        <!--<Button-->
+        <!--android:id="@+id/boton_aceptar"-->
+        <!--android:layout_width="wrap_content"-->
+
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:backgroundTint="@color/com_facebook_blue"-->
+        <!--android:text="Registrar Averia"-->
+        <!--android:textColor="@android:color/white" />-->
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

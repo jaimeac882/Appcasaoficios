@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="colorPrimary">#3F51B5</color>
+     <color name="colorPrimaryDark">#303F9F</color>
+   <color name="colorAccent">#FF4081</color>
+
+
+    <color name="titulo_programa">#1F8AD0</color>
+    <color name="fondo_raya">#4D4D4D</color>
+    <color name="descripcion_programa">#8C8C8C</color>
+    <color name="nero">#000000</color>
+    <color name="subtitulo">#8C8C8C</color>
+    <color name="damx">#F7BE81</color>
+    <color name="verde">#A4C639</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="azulsaturado">#1e90ff</color>
+
+
+    <color name="buton_color_green">#01DF01</color>
+    <color name="buton_color_red">#FA5858</color>
+    <color name="buton_color_celeste">#81BEF7</color>
+    <color name="button_color_gris">#E0E0E0</color>
+
+   <!--<color name="colorAccent">#EC407A</color>-->
+
+</resources>

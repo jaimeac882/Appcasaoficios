@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "146643377224",
+    "firebase_url": "https://proyectocasaoficios.firebaseio.com",
+    "project_id": "proyectocasaoficios",
+    "storage_bucket": "proyectocasaoficios.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146643377224:android:008af44fa61c5140",
+        "android_client_info": {
+          "package_name": "com.casaoficios.appcasaoficios"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146643377224-5rhupvf51rsj8igloc5fit0o8hhu6gfr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy_mP77jvpyqxoenX0Jmur013iCQGhLEA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.fragment_listasolicitud">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment2"
+            android:orientation="vertical" >
+
+
+
+
+
+
+
+            <com.casaoficios.appcasaoficios.custom.CustomListView
+
+                android:id="@+id/flujosolicitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="#FF8C00"
+                android:headerDividersEnabled="true"
+                android:dividerHeight="2dp"
+
+                >
+            </com.casaoficios.appcasaoficios.custom.CustomListView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

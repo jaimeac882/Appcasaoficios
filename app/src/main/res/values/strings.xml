@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Casa Oficios</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="hint_nombre">Nombres</string>
+    <string name="hint_direccion">Dirección</string>
+    <string name="hint_ape">Apellidos</string>
+    <string name="hint_nombremat">Apellido Materno</string>
+    <string name="hint_telefono">Telefono</string>
+    <string name="hint_fec">Fecha Nacimiento</string>
+    <string name="action_registrar">Registrarse</string>
+    <string name="hint_clave">Clave</string>
+    <string name="accion_cancelar">Cancelar</string>
+    <string name="accion_aceptar">Registrarme</string>
+    <string name="accion_continu">Continuar</string>
+    <string name="accion_siguiente">Siguiente</string>
+    <string name="accion_continuar">Continuar</string>
+    <string name="accion_aceptar2">Registrar Averia</string>
+    <string name="accion_averia">Registre su Averia</string>
+    <string name="hint_correo">Correo Electronico</string>
+    <string name="prompt_password">Clave</string>
+    <string name="txtave">Describenos tu Averia</string>
+    <string name="id_facebook">1506673146010849</string>
+    <string name="action_sign_in_short">Enter</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="action_sign_in">Ingresar</string>
+
+
+    <string name="ip">http://192.168.1.112:8081</string>
+    <string name="title_activity_ubica_maps">Map</string>
+    <string name="intro_message">Buscar Dirección</string>
+
+
+
+
+        <string name="selected_place">Last Selected Place:</string>
+        <string name="place_details">
+    <![CDATA[
+        <b>%1$s</b>
+        <br/>
+        <i>Place Id: %2$s</i>
+        <br/>
+        Address: %3$s
+        <br/>
+        Phone: %4$s
+        <br/>
+        Website: %5$s
+    ]]>
+    </string>
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="timewaitsplash">5000</string>
+
+</resources>
